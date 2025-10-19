@@ -1,0 +1,93 @@
+.Student {
+  margin: 10px 0;
+}
+
+.--isDeleted {
+  color: var(--color3);
+
+  button {
+    display: none;
+  }
+}
+
+.FormContainer {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  background: #ebe3d2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.3s ease-out;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  input {
+    padding: 8px;
+    border: 1px solid #ccbfa3;
+    border-radius: 4px;
+  }
+}
+
+.SubmitButton {
+  background-color: #414833;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #737a5d;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.AddButton{
+  background-color: #8277ff;
+  border: none;
+  font-size: 16px;
+  padding: 4px 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover{
+    background-color: #5242fd;
+    color: white;
+  }
+}
+
+.DeleteButton {
+  background-color: #6aff60; 
+  color: #414833;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #e03b3b;
+    color: white;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    color: white;
+  }
+}

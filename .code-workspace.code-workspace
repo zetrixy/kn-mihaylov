@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "id103",
+			"uri": "ftp://id103/"
+		},
+		{
+			"name": "id399",
+			"uri": "ftp://id399/"
+		},
+		{
+			"path": "../для проги"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "для проги"
+	}
+}
